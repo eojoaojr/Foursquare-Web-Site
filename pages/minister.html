@@ -1,0 +1,85 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/minister.css">
+    <link rel="stylesheet" href="/css/responsive/reponsive-minister.css">
+    <link rel="stylesheet" href="/css/config/config.css">
+    <link REL="SHORTCUT ICON" HREF="/images/logos/logo.png">
+    <script src="/js/script.js"></script>
+    <title>IEQ Exercito de Deus</title>
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="/index.html"><img src="/images/logos/logo.png" class="logo"></a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="about.html">Quem somos</a></li>
+                <li><a href="minister.html">Igreja Quadrangular</a></li>
+                <li><a href="donation.html">Contribua</a></li>
+                <li><a href="live.html">Ao vivo</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2 class='h2'>Somos a <br><span>Quadrangular</span> </h2>
+                <p class="paragrafo">Fundada em 1° de janeiro de 1923, com a inauguração de sua sede internacional Angelus Temple, em Los Angeles, Califórnia; a Igreja do Evangelho Quadrangular nasceu no coração de Deus e foi confiada às mãos da evangelista Aimée Semple McPherson,
+                    conhecida como "Irmã Aimee" que, em seu ministério, foi responsável por diversas ações que resultaram em grandes impactos evangelísticos.
+
+                </p>
+                <a href="pages/about.html">Saiba mais</a>
+            </div>
+            <div class="imgBox">
+                <img src="/images/simbolfoursquare/aimee.jpg" class="logoprincipal">
+
+            </div>
+        </div>
+        <ul class="thumb ">
+            <li><img src="/images/simbolfoursquare/thumb1.png" onclick="changeCircleColor('#cc0000');
+                changeText('Ele é o Salvador para livrar o mundo da maldição do pecado e do engano de Satanás. Lucas apresenta Jesus como o filho do Homem para a salvação da alma (Lc 19.10)');
+                imgSlider('/images/simbolfoursquare/img1.png')
+                changeTitle('Jesus Salva')"></li>
+
+            <li><img src="/images/simbolfoursquare/thumb2.png" onclick="changeCircleColor('#ffff00');
+                changeText('Ele é o Batizador no Espírito Santo e no fogo para que a Igreja deixe de ser tímida e fraca e pregue o Evangelho com Intrepidez. João apresenta Jesus como o Filho de Deus, para batizar e abençoar o crente (João 1.33-34).');
+                imgSlider('/images/simbolfoursquare/img2.png')
+                changeTitle('Jesus Batiza com o Espírito Santo')"></li>
+
+            <li><img src="/images/simbolfoursquare/thumb3.png" onclick="changeCircleColor('#0000ff');
+                changeText('Para a humanidade adoecida, tanto na alma como no corpo, Jesus é o Grande Médico curador. O Evangelho de Marcos apresenta Jesus como Servo de Deus, para ministrar a cura divina no corpo e na alma do homem (Mc 6.56; 10.45).');
+                imgSlider('/images/simbolfoursquare/img3.png')
+                changeTitle('Jesus Cura')">
+            </li>
+            <li><img src="/images/simbolfoursquare/thumb4.png" onclick="changeCircleColor('#5a005a');
+                changeText('Para o mundo cansado de guerras, lutas, cobiças, ódio e sofrimentos, Jesus é o Rei que traz a verdadeira paz. O Evangelho de Mateus apresenta Jesus Cristo como o Rei que há de vir, para trazer a verdadeira paz ao mundo (Mt 25.31).');
+                imgSlider('/images/simbolfoursquare/img4.png')
+                changeTitle('Jesus Voltará')">
+            </li>
+        </ul>
+        <ul class="sci ">
+            <li>
+                <a class="aa" href="https://www.instagram.com/ieqexercitodedeus_oficial/"><img src="/images/socialmedia/facebook.png "></a>
+            </li>
+            <li>
+                <a class="aa" href="https://www.instagram.com/ieqexercitodedeus_oficial/"><img src="/images/socialmedia/twitter.png "></a>
+            </li>
+            <li>
+                <a class="aa" href="https://www.instagram.com/ieqexercitodedeus_oficial/"><img src="/images/socialmedia/instagram.png "></a>
+            </li>
+        </ul>
+    </section>
+    <script type="text/javascript" src="/js/vanilla.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".imgBox"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
+</body>
+
+</html>

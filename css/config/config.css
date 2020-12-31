@@ -1,0 +1,5 @@
+/* Largura da barra de rolagem */
+
+::-webkit-scrollbar {
+    width: 0px;
+}
